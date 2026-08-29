@@ -17,3 +17,7 @@ x = profit_margin
 random_x = random.randint(1, 3)
 if random_x == 1:
     os.system('cls' if os.name == 'nt' else 'clear')
+else: 
+    if random_x != 1:
+        print("all is okey")
+        
