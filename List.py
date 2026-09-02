@@ -6,7 +6,7 @@ secret = random.randint(1, 2)
 
 atempt = 0
 guessed = False
-while not guessed:
+while guessed == False:
     n = int(input("Guess the number (1, 2): "))
     
     if n == secret:
