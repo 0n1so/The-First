@@ -1,4 +1,3 @@
-
 email = input("Write ur amail: ").strip()
 
 if not email.endswith("@gmail.com"):
